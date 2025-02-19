@@ -4,7 +4,7 @@ export default function AgentsPage() {
   const InfoCard = (
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
-        ▲ Next.js + LangChain.js Structured Output 🦜🔗
+        ▲ Next.js + LangChain.js Structured Output 🦜🔗 - by: RenanGeorgio
       </h1>
       <ul>
         <li className="text-l">
@@ -22,7 +22,7 @@ export default function AgentsPage() {
             <a href="https://nextjs.org/" target="_blank">
               Next.js
             </a>{" "}
-            project.
+            project - by: RenanGeorgio.
           </span>
         </li>
         <li>
@@ -58,27 +58,6 @@ export default function AgentsPage() {
             </a>{" "}
             to define schemas, but you can initialize the chain with JSON schema
             too.
-          </span>
-        </li>
-        <li className="hidden text-l md:block">
-          🎨
-          <span className="ml-2">
-            The main frontend logic is found in{" "}
-            <code>app/structured_output/page.tsx</code>.
-          </span>
-        </li>
-        <li className="text-l">
-          🐙
-          <span className="ml-2">
-            This template is open source - you can see the source code and
-            deploy your own version{" "}
-            <a
-              href="https://github.com/langchain-ai/langchain-nextjs-template"
-              target="_blank"
-            >
-              from the GitHub repo
-            </a>
-            !
           </span>
         </li>
         <li className="text-l">
